@@ -1,0 +1,292 @@
+HTML
+myfirst.html:
+<link
+href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Open+Sa
+ns:300,400,500,700|Waiting+for+the+Sunrise|Shadows+Into+Light'
+rel='stylesheet' type='text/css'>
+
+<div class="wrapper clearfix">
+
+<div class="left">
+
+<class="name-hero">
+
+<div class="me-img"></div>
+
+<div class="name-text">
+<img
+src="https://imagizer.imageshack.com/v2/150x100q90/923/orvckk.jpg"
+height=250>
+<h1 style=font-family:Lora, serif;>Hariharan <em>V</em></h1>
+<h style=font-family:Lora, serif;>contact</h>
+<p style=font-family:Lora, serif;>email | harikv223@gmail.com</p>
+<p style=font-family:Lora, serif;>phone number <em> |8973712581
+</em></p>
+
+</div>
+
+</div>
+
+</div>
+<div class="right">
+
+<class="inner">
+<section>
+<h1 style="font-family:Times New Roman, serif;">About Me</h1>
+<p >I am interested in Data Analystics and currently doing my UG degree
+in Artificial
+Intelligence and Data Science
+</p>
+
+</section>
+<section>
+<div class="wrapper">
+<h1 class="skill-set">Education</h1>
+<p class="skill-set">2018| <em>SSLC-Jayam Matric Higher Secondary
+School,Attur - 91%</em></p>
+<p class="skill-set">2020| <em> HSC - Jayam Matric Higher Secondary
+School,Attur | 77%</p>
+<p class="skill-set">2020-2024 | <em>B.Tech Artificial Intelligence and
+Data Science | 9.12 CGPA</em></p>
+
+<section>
+
+<div class="wrapper">
+<h1 style="font-family:Times New Roman, serif;">Technical Skills </h1>
+<ul class="skill-set">
+<li>C programming</li>
+
+<li>Java</li>
+<li>R programming</li>
+<li>HTML</li>
+<li>Data Visulisation</li>
+
+<li>Machine Learning</li>
+
+</ul>
+</section>
+</section>
+
+</section>
+<section>
+<div class="wrapper">
+<h1 style="font-family:Times New Roman, serif;">Tools</h1>
+<ul class="skill-set">
+<li>Tableau</li>
+<li>power BI</li>
+<li>R studio</li>
+<li>google colab</li>
+<li>live SQL</li>
+
+</ul>
+</section>
+
+<div class="wrapper">
+<h1 style="font-family:Times New Roman, serif;">Internship</h1>
+<p>Power Bi Training and Intern at We and Data-2021</p>
+<h1 style="font-family:Times New Roman, serif;">Certification</h1>
+<p>2021 - Power BI - Awarded by We and Data</p>
+<p> 2021 - Deep Learning- Awarded by NVIDIA</p>
+<h1 style="font-family:Times New Roman, serif;">Project</h1>
+<p>Emotion Based Music Recommendation</p>
+
+</div>
+
+</div>
+
+</div> 
+
+CSS Code:
+*, *:before, *:after {
+-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing:
+border-box;
+}
+
+html
+{
+font-size:100%;
+}
+
+body5
+
+{
+-webkit-font-smoothing:antialiased;
+color:#333332;
+font-family:"Lora", serif;
+font-size:18px;
+font-weight:400;
+line-height:1.4;
+text-rendering:optimizeLegibility;
+}
+
+.skill-set
+{
+font-family:Lora, serif;
+}
+
+h1
+{
+color:rgba(0,0,0,.75);
+}
+
+.wrapper
+{
+height:100%;
+font-style:normal;
+}
+
+.left
+
+{
+background-color:rgba(0,0,0,.025);
+text-align:center;
+float:right;
+height:100%;
+margin-left:-1px;
+min-width:256px;
+position:fixed;
+width:33.33%;
+
+}
+
+.right
+{
+float:right;
+height:100%;
+position:relative;
+width:66.66%;
+
+}
+
+.name-hero
+{
+background:rgba(0,0,0,.001);
+bottom:0;
+height:290px;
+
+left:0;
+margin:auto;
+position:absolute;
+right:0;
+top:0;
+width:85%;
+}
+
+.me-img
+{
+background: no-repeat center center ;
+background-size:100%;
+background-position:0px;
+border-radius:100%;
+height:150px;
+margin:0 auto;
+position:relative;
+width:150px;
+}
+
+.name-hero h1
+{
+font-family:Lora, sans-serif;
+font-size:1.5em;
+text-align:center;
+}
+
+.name-hero h1 em
+{
+color:rgba(0,0,0,.3);
+
+font-weight:700;
+}
+
+.name-hero p
+{
+color:rgba(0,0,0,.75);
+font-size:.75em;
+line-height:1.5;
+margin:0 8px 0 0;
+text-align:center;
+}
+
+.name-hero .name-text
+{
+margin:0 auto;
+width:85%;
+}
+
+.inner
+{
+margin:0 auto;
+max-width:975px;
+padding:3em;
+
+}
+
+.inner h1
+{
+font-size:1.75em;
+
+}
+
+.inner p
+{
+color:rgba(0,0,0,.5);
+font-style:Times;
+}
+
+.inner p em
+{
+color:rgba(0,0,0,1);
+font-style:normal;
+}
+
+.inner section
+{
+margin:100px auto;
+}
+
+ul
+{
+
+list-style-type:none;
+margin-top:-10px;
+max-width:570px;
+padding:0;
+}
+
+.skill-set li
+{
+background:rgba(0,0,0,.75);
+border-radius:5px;
+color:#FFF;
+display:inline-block;
+list-style:none;
+margin:15px 15px 0 0;
+padding:10px;
+text-align:justify;
+}
+
+@media screen and (max-width: 48em) {
+.right,.left
+{
+float:none;
+position:relative !important;
+width:100%;
+min-height:500px;
+}
+
+@media screen and (max-width: 75em) {
+body
+{ font-size:16px;}
+}
+
+@media screen and (max-width: 60em) {
+body
+{ font-size:14px;}
+}
+.clearfix:after {
+content: " "; /* Older browser do not support empty content */
+visibility: hidden;
+display: block;
+height: 0;
+clear: both;
+}
